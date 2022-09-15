@@ -1,0 +1,31 @@
+:host
+{
+    // Set display method
+    display: grid;
+    height: 100vh;
+
+    // Define grid size
+    grid-template-columns: 25rem auto;
+    grid-template-rows: 8rem auto;
+}
+
+// Info header placement
+#info
+{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+// Event list placement
+#event-list
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+// Event details placement
+app-event-details
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
