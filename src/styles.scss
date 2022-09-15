@@ -1,6 +1,7 @@
 // Global stylesheet
 
 // Import fonts
+// Roboto Slab - for titles
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // Color scheme - uses normal css variables because the angular compiler is weird
@@ -33,11 +34,14 @@
     --nord15: #b48ead;
 }
 
+// Fix margins
+*
+{
+    margin: 0;
+}
+
 body
 {
-    // Fix margin
-    margin: 0;
-
     // Colors
     background: var(--nord0);
     color: var(--nord4);

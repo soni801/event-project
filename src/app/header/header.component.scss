@@ -1,0 +1,33 @@
+// Import fonts
+// Montserrat - for timer
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:host
+{
+    // Set display mode
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    // Set background color
+    background: var(--nord1);
+}
+
+// Subtitle styling
+#subtitle
+{
+    // Apply a darker color
+    // FIXME: This has a bad contrast rating
+    color: var(--nord3);
+
+    // Apply a lighter font
+    font-weight: normal;
+}
+
+// Timer styling
+#timer
+{
+    // Define font
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+}
